@@ -1,33 +1,20 @@
-import React, { Component } from 'react';
+// import { useState } from 'react';
 
-export default class RiderSingleItem extends Component {
-  state = {
-    checked: true
-  };
-
-  onChange = () => {
-    this.setState({
-      checked: !this.state.checked
-    });
-  };
-
-  render() {
-    return (
-    
-        <form>
-          <label className="checkbox">
-            <input
-              name="checked"
-              type="checkbox"
-              checked={this.state.checked}
-              onChange={this.onChange}
-            />
-          </label>
-          <span className={this.state.checked ? null : 'not-checked'}>
-            {this.props.item}
-          </span>
-        </form>
-   
-    );
-  }
+export default function RiderSingleItem(key, item) {
+  console.log("key", key)
+  // return (
+  //       <form>
+  //         <label className="checkbox">
+  //           <input
+  //             name="checked"
+  //             type="checkbox"
+  //             checked={item.checked}
+  //             onChange={""}
+  //           />
+  //         </label>
+  //         <span className={""}>
+  //           {this.props.item}
+  //         </span>
+  //       </form>
+  // );
 }

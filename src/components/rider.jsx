@@ -1,17 +1,15 @@
-import React, { Component } from 'react'
+// import React from 'react'
 import RiderItems from './rideritemcontainer.jsx'
 
-export default class Rider extends Component {
+export default function Rider( rider) {
 
-    render() {
 
         return (
             <section>
-                <h1>{this.props.title}</h1>
-                <h2>{this.props.description}</h2>
-                <RiderItems items={this.props.items} title={this.props.title} />
-                {this.props.title === 'EXHIBITION' ? <div>* with the exception of salvaged materials</div> : null}
+                <h1>{rider.title}</h1>
+                <h2>{rider.description}</h2>
+                <RiderItems items={rider.items} title={rider.title} />
+                {rider.title === 'EXHIBITION' ? <div>* with the exception of salvaged materials</div> : null}
             </section>
         )
-    }
 }

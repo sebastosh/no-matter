@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
-import RiderSingleItem from './ridersingleitem'
+import RiderSingleItem from "./ridersingleitem";
 
+export default function RiderItemsContainer(items, title) {
 
-export default class RiderItemsContainer extends Component {
+  return (
+    <div className="rider-items">
+      <ul>
+        {title === "OPENING" ? null : <li>Therefore,</li>}
 
-    render() {
- 
-        return (
-            <div className="rider-items" > 
-                <ul>
-                    {this.props.title === 'OPENING'? null : <li>Therefore,</li>}
-                {this.props.items.map((item, index) => <RiderSingleItem key={index} item={item} />)}
-                </ul>
-            </div>
-        )
-    }
+        <div>
+          {Object.keys(items).map((key) => (
+            <RiderSingleItem key={key} item={items[key]} />
+          ))}
+        </div>
+      </ul>
+    </div>
+  );
 }
