@@ -6,60 +6,46 @@
     "description": "Physical works are subject to decomposition, or, if inert, also nonsynthetic.",
     "items": [
       {
-        "item": "no acrylic paints",
-        "checked": true
+        "item": "no acrylic paints"
       },
       {
-        "item": "no plastics",
-        "checked": true
+        "item": "no plastics"
       },
       {
-        "item": "no polyurethane foams, polyester resins, etc",
-        "checked": true
+        "item": "no polyurethane foams, polyester resins, etc"
       },
       {
-        "item": "no polyvinyl chlor,ide (PVC)",
-        "checked": true
+        "item": "no polyvinyl chlor,ide (PVC)"
       },
       {
-        "item": "no vinyl record pr,essing",
-        "checked": true
+        "item": "no vinyl record pr,essing"
       },
       {
-        "item": "no plastic coated ,photographic paper",
-        "checked": true
+        "item": "no plastic coated ,photographic paper"
       },
       {
-        "item": "No or minimal long,-distance oil-dependent travel — reliance on proxies as needed",
-        "checked": true
+        "item": "No or minimal long,-distance oil-dependent travel — reliance on proxies as needed"
       },
       {
-        "item": "No CD manufacturin,g",
-        "checked": true
+        "item": "No CD manufacturin,g"
       },
       {
-        "item": "No new electronics, (incl cameras, computers, data storage, etc)",
-        "checked": true
+        "item": "No new electronics, (incl cameras, computers, data storage, etc)"
       },
       {
-        "item": "Outsourced fabrica,tion is local and fairly paid",
-        "checked": true
+        "item": "Outsourced fabrica,tion is local and fairly paid"
       },
       {
-        "item": "Publications are p,rinted local to distribution ",
-        "checked": true
+        "item": "Publications are p,rinted local to distribution "
       },
       {
-        "item": "no non-recycled pa,per, no petroleum inks",
-        "checked": true
+        "item": "no non-recycled pa,per, no petroleum inks"
       },
       {
-        "item": "no plastic coating, on covers",
-        "checked": true
+        "item": "no plastic coating, on covers"
       },
       {
-        "item": "no plastic wrap on, books",
-        "checked": true
+        "item": "no plastic wrap on, books"
       }
     ]
   },
@@ -70,20 +56,16 @@
     "description": "New exhibition materials are compostable.",
     "items": [
       {
-        "item": "no vinyl — e.g., lettering, signage, banners",
-        "checked": true
+        "item": "no vinyl — e.g., lettering, signage, banners"
       },
       {
-        "item": "no plexiglass",
-        "checked": true
+        "item": "no plexiglass"
       },
       {
-        "item": "no new electronics (incl projectors, computers, data storage, etc)",
-        "checked": true
+        "item": "no new electronics (incl projectors, computers, data storage, etc)"
       },
       {
-        "item": "no non-reusable temporary walls",
-        "checked": true
+        "item": "no non-reusable temporary walls"
       }
     ]
   },
@@ -94,16 +76,13 @@
     "description": "New packing materials are compostable.",
     "items": [
       {
-        "item": "no poly sheeting, bubble wrap, polyethylene, styrofoam, foamcore, etc.",
-        "checked": true
+        "item": "no poly sheeting, bubble wrap, polyethylene, styrofoam, foamcore, etc."
       },
       {
-        "item": "no plastic wraps for crates",
-        "checked": true
+        "item": "no plastic wraps for crates"
       },
       {
-        "item": "Cardboard-surface crates, built for re-use",
-        "checked": true
+        "item": "Cardboard-surface crates, built for re-use"
       }
     ]
   },
@@ -114,16 +93,13 @@
     "description": "Anyone non-instrumental is discouraged from traveling by air in order to be present.",
     "items": [
       {
-        "item": "Anyone who feels they need to be present somewhere travels by train if possible, and if flying, sits in coach, avoids overnight flights, and avoids connecting flights.",
-        "checked": true
+        "item": "Anyone who feels they need to be present somewhere travels by train if possible, and if flying, sits in coach, avoids overnight flights, and avoids connecting flights."
       },
       {
-        "item": "Institutions/galleries incentivize not-flying by offering equivalent cash to artists in lieu of covering flight & lodging costs.",
-        "checked": true
+        "item": "Institutions/galleries incentivize not-flying by offering equivalent cash to artists in lieu of covering flight & lodging costs."
       },
       {
-        "item": "No business or first class flights, no private planes, no cruise ships.",
-        "checked": true
+        "item": "No business or first class flights, no private planes, no cruise ships."
       }
     ]
   },
@@ -134,16 +110,13 @@
     "description": "",
     "items": [
       {
-        "item": "No imported water, far-flung wine, etc ",
-        "checked": true
+        "item": "No imported water, far-flung wine, etc "
       },
       {
-        "item": "If a meal is offered in the context of the show, no food is served that comes from animals that are either kept in captivity and/or killed for this purpose.",
-        "checked": true
+        "item": "If a meal is offered in the context of the show, no food is served that comes from animals that are either kept in captivity and/or killed for this purpose."
       },
       {
-        "item": "No single-use cups, dishes, unless made from plant material that can be non-industrially composted, i.e. in garden, unless there is great confidence that your municipality successfully can compost the material (currently unusual)",
-        "checked": true
+        "item": "No single-use cups, dishes, unless made from plant material that can be non-industrially composted, i.e. in garden, unless there is great confidence that your municipality successfully can compost the material (currently unusual)"
       }
     ]
   }

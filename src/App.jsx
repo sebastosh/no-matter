@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import './assets/style.css'
 import riderData from './data/riderData.json'
-import Rider from './components/rider';
+import RiderSection from './components/riderSection';
 import Exhibition from './components/exhibition'
 import Signatories from './components/signatories'
 
@@ -25,7 +25,7 @@ production, of what is necessary to make/meet art today.
             <div className="rider">
         {riderData.map((rider, index) => {
           return (
-            <Rider
+            <RiderSection
               key={index}
               title={rider.title}
               active={rider.active}

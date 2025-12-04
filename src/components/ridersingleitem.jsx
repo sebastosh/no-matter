@@ -1,20 +1,18 @@
-// import { useState } from 'react';
+import { useState } from 'react';
+import Checkbox from './checkbox';
 
-export default function RiderSingleItem(key, item) {
-  console.log("key", key)
-  // return (
-  //       <form>
-  //         <label className="checkbox">
-  //           <input
-  //             name="checked"
-  //             type="checkbox"
-  //             checked={item.checked}
-  //             onChange={""}
-  //           />
-  //         </label>
-  //         <span className={""}>
-  //           {this.props.item}
-  //         </span>
-  //       </form>
-  // );
+export default function RiderSingleItem(item) {
+
+  const [isChecked, setIsChecked] = useState(true);
+
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
+
+  return (
+    <label>
+ <Checkbox checked={isChecked} onChange={handleCheckboxChange}/>
+     {item.item}
+    </label>
+  );
 }

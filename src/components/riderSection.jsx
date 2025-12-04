@@ -1,7 +1,6 @@
-// import React from 'react'
-import RiderItems from './rideritemcontainer.jsx'
+import RiderItems from './riderItems'
 
-export default function Rider( rider) {
+export default function RiderSection(rider) {
 
 
         return (
