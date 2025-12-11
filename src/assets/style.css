@@ -7,7 +7,6 @@
   font-family: "Ms Mincho", serif;
   line-height: 1.5;
   color-scheme: light dark;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,33 +14,9 @@
 }
 
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
+    font-family: "Ms Mincho", serif;
+
 }
 button:focus,
 button:focus-visible {
@@ -51,6 +26,11 @@ button:focus-visible {
 #main {
   max-width: 1280px;
   margin: 2em auto;
+}
+
+header h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
 }
 
 .section-container {
@@ -108,29 +88,15 @@ section {
   margin: 0 1em 1.5em 0;
 }
 
-.signatory {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1em
-}
-
-.signatory button {
-  font-family: MsMincho;
-  font-size: 1em;
-  padding: 0.5em;
-  margin-right: 1em;
-  border: 1px solid;
-  float: right;
-  height: 2em;
-}
-
 .signatories {
   flex: 1 1;
   margin-right: 1em;
 }
 
 .signer {
-  display: flex;
+    display: flex;
+    gap: 2em;
+    margin: 4em 0 0;
 }
 
 .signer input {
@@ -139,8 +105,48 @@ section {
   border: none;
   border-top: 1px solid;
   font-family: MsMincho;
-  font-size: 1em;
-  margin: 3em 0 0 0;
+  background-color: transparent;
+}
+
+button {
+  background: transparent;
+  padding: .5em;
+}
+
+.add {
+  margin: 1em 0;
+}
+
+@media (max-width: 400px) {
+  :root {
+    display:flex;
+    flex-direction:column;
+  }
+  #main {
+    width: 380px;
+    margin: 0 auto;
+  }
+  header h1 {
+    font-size: 2em;
+    line-height: 1.1;
+    margin: 0;
+}
+}
+@media (min-width: 401px) and (max-width: 1180px) {
+  :root {
+    display:flex;
+    flex-direction:column;
+  }
+  #main {
+    width: 80vw;
+    margin: 0 2em;
+  }
+
+  
+.section-container {
+  column-count: 1;
+}
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -148,9 +154,11 @@ section {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
@@ -159,27 +167,43 @@ section {
 @media print {
   @page {
     size: auto;
-    /* Portrait or Landscape */
     margin: 0mm;
-    /* Reset default margin */
   }
 
-  /* Define additional print styles */
   body {
-    margin: 1em;
-    /* Reset body margin */
+    margin: 2em;
   }
 
-   .page, .page-break {page-break-before:always; }
+  .print,
+  .add,
+  .remove,
+  .description {
+    display: none;
+    visibility: hidden;
+  }
+
+  header {
+    break-after: avoid-page;
+    page-break-after: avoid;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .page,
+  .page-break {
+    page-break-before: always;
+  }
 
 
   input[type='checkbox'] {
     display: none;
   }
-
-  .print, .add, .remove, .description {
-    visibility: hidden;
-  }
-
 
 }

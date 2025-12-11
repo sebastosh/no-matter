@@ -45,6 +45,7 @@ const Signatories = () => {
         etc.)
       </h3>
       <div>You are invited to co-half/half-sign this document. ...</div>
+      <button className="add" onClick={handleAddSigner}>Add Signatory</button>
 
         {signers.map((signer, index) => (
           <div key={index} className="signer">
@@ -62,13 +63,11 @@ const Signatories = () => {
               name="signerTitle"
               placeholder="Title"
             />
-                        {/* Remove button for each field set */}
             <button className="remove" onClick={(e) => handleRemoveSigner(e, index)}>Remove</button>
           </div>
         ))}
 
-            {/* Button to add a new field set */}
-      <button className="add" onClick={handleAddSigner}>Add Signatory</button>
+
     </div>
   );
 };

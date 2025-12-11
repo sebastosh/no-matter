@@ -18,7 +18,7 @@ function App() {
   return (
     <div id="main">
       <header>
-        <h1><strong>{meta.title}:</strong> {meta.subtitle}</h1>
+        <h1>{meta.title}: {meta.subtitle}</h1>
         <p className="description">{meta.description}</p>
       </header>
 

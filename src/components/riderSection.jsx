@@ -3,8 +3,8 @@ import RiderItems from "./riderItems";
 export default function RiderSection(rider) {
   return (
     <section>
-      <h1>{rider.title}</h1>
-      <h2>{rider.description}</h2>
+      <h2>{rider.title}</h2>
+      <h3>{rider.description}</h3>
       <RiderItems items={rider.items} title={rider.title} />
       {rider.title === "EXHIBITION" ? (
         <div>* with the exception of salvaged materials</div>
